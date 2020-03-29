@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Lte_Core.dir/Common/Crc.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/DciSupport.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/Deinterleaver.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/PbchIndex.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/PcfichIndex.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/PnSequence.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/RateRecovery.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/RsShift.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/TranspBlock.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/TurboCodeSupport.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/SssCorrelatorSlow.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/LteSupport.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/LteTypes.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/PssCorrelator.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/SyncCode.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/SyncFilter.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Common/FilterAfr.cpp.o"
+  "CMakeFiles/Lte_Core.dir/LteOfdmDemodulator.cpp.o"
+  "CMakeFiles/Lte_Core.dir/LteCorrelator.cpp.o"
+  "CMakeFiles/Lte_Core.dir/ControlChansMap.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Decoder.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Equalizer.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Estimator.cpp.o"
+  "CMakeFiles/Lte_Core.dir/LteStream.cpp.o"
+  "CMakeFiles/Lte_Core.dir/PbchProcessing.cpp.o"
+  "CMakeFiles/Lte_Core.dir/PcfichProcessing.cpp.o"
+  "CMakeFiles/Lte_Core.dir/PdcchProcessing.cpp.o"
+  "CMakeFiles/Lte_Core.dir/PdschProcessing.cpp.o"
+  "CMakeFiles/Lte_Core.dir/Riv.cpp.o"
+  "CMakeFiles/Lte_Core.dir/SoftConvDecoder.cpp.o"
+  "CMakeFiles/Lte_Core.dir/SoftTurboDecoder.cpp.o"
+  "CMakeFiles/Lte_Core.dir/VrbMap.cpp.o"
+  "libLte_Core.pdb"
+  "libLte_Core.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Lte_Core.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

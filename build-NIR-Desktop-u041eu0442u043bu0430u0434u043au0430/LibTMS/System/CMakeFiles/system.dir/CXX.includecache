@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stepan/LTE_NIR/NIR/LibTMS/System/DebugInfo.cpp
+DebugInfo.h
+/home/stepan/LTE_NIR/NIR/LibTMS/System/DebugInfo.h
+iostream
+-
+
+/home/stepan/LTE_NIR/NIR/LibTMS/System/DebugInfo.h
+stddef.h
+-
+stdint.h
+-
+cstdio
+-
+cstdarg
+-
+

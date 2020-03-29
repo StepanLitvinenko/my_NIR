@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NIR"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\LibTMS\;CMake Files\LibTMS\Math\;CMake Files\LibTMS\System\;CMake Files\Lte\;CMake Files\Lte\Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NIR">
+				<Option output="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/NIR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTMS320C66X"/>
+					<Add option="-DLITTLE_ENDIAN_HOST"/>
+					<Add option="-DLITTLE_ENDIAN"/>
+					<Add option="-DNOASSUME"/>
+					<Add option="-DPC_SIMULATOR"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR"/>
+					<Add directory="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/Math/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/System/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/Lte/Core/."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/Lte/Core/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTms"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 NIR"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NIR/fast">
+				<Option output="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/NIR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTMS320C66X"/>
+					<Add option="-DLITTLE_ENDIAN_HOST"/>
+					<Add option="-DLITTLE_ENDIAN"/>
+					<Add option="-DNOASSUME"/>
+					<Add option="-DPC_SIMULATOR"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR"/>
+					<Add directory="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/Math/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/System/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/Lte/Core/."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/Lte/Core/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTms"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 NIR/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NIR_link_target">
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 NIR_link_target"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="math">
+				<Option output="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/libmath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTMS320C66X"/>
+					<Add option="-DLITTLE_ENDIAN_HOST"/>
+					<Add option="-DLITTLE_ENDIAN"/>
+					<Add option="-DNOASSUME"/>
+					<Add option="-DPC_SIMULATOR"/>
+					<Add option="-D_LITTLE_ENDIAN"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/Math/.."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/Makefile&quot;  VERBOSE=1 math"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="math/fast">
+				<Option output="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/libmath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTMS320C66X"/>
+					<Add option="-DLITTLE_ENDIAN_HOST"/>
+					<Add option="-DLITTLE_ENDIAN"/>
+					<Add option="-DNOASSUME"/>
+					<Add option="-DPC_SIMULATOR"/>
+					<Add option="-D_LITTLE_ENDIAN"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/Math/.."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/Makefile&quot;  VERBOSE=1 math/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/Math/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="system">
+				<Option output="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/libsystem.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTMS320C66X"/>
+					<Add option="-DLITTLE_ENDIAN_HOST"/>
+					<Add option="-DLITTLE_ENDIAN"/>
+					<Add option="-DNOASSUME"/>
+					<Add option="-DPC_SIMULATOR"/>
+					<Add option="-D_LITTLE_ENDIAN"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/System/.."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/Makefile&quot;  VERBOSE=1 system"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="system/fast">
+				<Option output="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/libsystem.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTMS320C66X"/>
+					<Add option="-DLITTLE_ENDIAN_HOST"/>
+					<Add option="-DLITTLE_ENDIAN"/>
+					<Add option="-DNOASSUME"/>
+					<Add option="-DPC_SIMULATOR"/>
+					<Add option="-D_LITTLE_ENDIAN"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/System/.."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/Makefile&quot;  VERBOSE=1 system/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/LibTMS/System/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lte_Core">
+				<Option output="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/libLte_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTMS320C66X"/>
+					<Add option="-DLITTLE_ENDIAN_HOST"/>
+					<Add option="-DLITTLE_ENDIAN"/>
+					<Add option="-DNOASSUME"/>
+					<Add option="-DPC_SIMULATOR"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/Lte/Core/."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/Lte/Core/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTms"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/Math/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/System/.."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/Makefile&quot;  VERBOSE=1 Lte_Core"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lte_Core/fast">
+				<Option output="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/libLte_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTMS320C66X"/>
+					<Add option="-DLITTLE_ENDIAN_HOST"/>
+					<Add option="-DLITTLE_ENDIAN"/>
+					<Add option="-DNOASSUME"/>
+					<Add option="-DPC_SIMULATOR"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/Lte/Core/."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/Lte/Core/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTms"/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/Math/.."/>
+					<Add directory="/home/stepan/LTE_NIR/NIR/LibTMS/System/.."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/Makefile&quot;  VERBOSE=1 Lte_Core/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stepan/LTE_NIR/build-NIR-Desktop-u041eu0442u043bu0430u0434u043au0430/Lte/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/C6xSimulator.c">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/C6xSimulator.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/C6xSimulator_base_types.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/C6xSimulator_type_modifiers.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/_C6xSimulator_priv.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/c66_ag_intrins.c">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/c66_ag_intrins.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/c66_conversion_macros.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/c66_data_sim.c">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/c66_data_sim.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/C6xSim/global.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/Complex.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/ComplexMath.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/ComplexMath.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/DSPF_sp_fftSPxSP_cn.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/DSPF_sp_fftSPxSP_cn.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/DSPF_sp_ifftSPxSP_cn.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/DSPF_sp_ifftSPxSP_cn.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/FftSP.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/FftSP.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/IntComplex.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/Peak.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/Peak.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/Util.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/Util.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/System/DebugInfo.cpp">
+			<Option target="system"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/System/DebugInfo.h">
+			<Option target="system"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/CellInfo.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/Crc.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/Crc.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/DciSupport.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/DciSupport.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/Deinterleaver.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/Deinterleaver.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/FilterAfr.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/FilterAfr.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/LteConst.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/LteDemConst.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/LteSupport.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/LteSupport.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/LteTypes.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/LteTypes.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PbchIndex.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PbchIndex.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PbchSymbStore.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PcfichIndex.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PcfichIndex.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PnSequence.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PnSequence.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PssCorrelator.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/PssCorrelator.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/Quadruplet.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/RateRecovery.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/RateRecovery.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/RsShift.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/RsShift.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/SssCorrelatorSlow.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/SssCorrelatorSlow.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/SyncCode.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/SyncCode.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/SyncFilter.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/SyncFilter.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/TrBlockSizeTable.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/TranspBlock.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/TranspBlock.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/TurboCodeSupport.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Common/TurboCodeSupport.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/ControlChansMap.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/ControlChansMap.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Decoder.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Decoder.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Equalizer.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Equalizer.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Estimator.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Estimator.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/LteCorrelator.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/LteCorrelator.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/LteOfdmDemodulator.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/LteOfdmDemodulator.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/LteStream.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/LteStream.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/PbchProcessing.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/PbchProcessing.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/PcfichProcessing.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/PcfichProcessing.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/PdcchProcessing.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/PdcchProcessing.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/PdschProcessing.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/PdschProcessing.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Riv.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/Riv.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/SoftConvDecoder.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/SoftConvDecoder.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/SoftTurboDecoder.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/SoftTurboDecoder.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/VrbMap.cpp">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/VrbMap.h">
+			<Option target="Lte_Core"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/main.cpp">
+			<Option target="NIR"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LibTMS\"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LibTMS\Math\"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/LibTMS/System/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LibTMS\System\"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lte\"/>
+		</Unit>
+		<Unit filename="/home/stepan/LTE_NIR/NIR/Lte/Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lte\Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

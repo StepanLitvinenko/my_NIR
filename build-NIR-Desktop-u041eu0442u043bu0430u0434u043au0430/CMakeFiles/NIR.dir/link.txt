@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g -g -Wall -Wno-strict-aliasing   CMakeFiles/NIR.dir/main.cpp.o  -o NIR Lte/Core/libLte_Core.a LibTMS/Math/libmath.a LibTMS/System/libsystem.a 
